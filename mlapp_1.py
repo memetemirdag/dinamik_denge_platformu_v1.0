@@ -26,7 +26,7 @@ from scipy.signal import butter, filtfilt
 # 1) Telefona IP Webcam / DroidCam benzeri uygulama kur.
 # 2) Telefon ve bilgisayar aynı Wi-Fi ağında olsun.
 # 3) Uygulamada görünen IP adresini PHONE_CAM_URL içine yaz.
-#
+
 # Bilgisayar kamerasına dönmek için USE_PHONE_CAMERA = False yapman yeterli.
 USE_PHONE_CAMERA = True
 PHONE_CAM_URL = "http://localhost:8080/video"  # Burayı telefondaki gerçek IP ile değiştir
